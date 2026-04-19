@@ -1,8 +1,8 @@
 # DriveAI: The Future of Aetheria Motors
 
-Hey there! Thanks for taking the time to review my submission for the Full Stack Engineer role. 
+Hey there! Thanks for taking the time to review my submission for the Full Stack Engineer role.
 
-**Live Demo URL**: [Insert your Vercel/Netlify URL here]
+**Live Demo URL**: https://aetheria-drive-ai.vercel.app/
 
 For this challenge, I built a single-page dealership site for a fictional brand called **Aetheria Motors**. The core idea was to make the AI assistant feel less like a side-widget and more like a co-pilot that actually controls the page. When you ask it to find an SUV or book a test drive, it physically scrolls you to the right section, filters the React state, and pre-fills the forms for you.
 
@@ -10,10 +10,10 @@ For this challenge, I built a single-page dealership site for a fictional brand 
 
 1. Clone the repo
 2. Create a `.env.local` file in the root and drop in your Gemini API key like this: `VITE_GEMINI_API_KEY=your_api_key_here`
-3. Run `npm install` 
+3. Run `npm install`
 4. Run `npm run dev` and check it out at `http://localhost:5173`.
 
-*(Note: If you don't want to mess with API keys locally, just use the live demo link above! I've attached my own key to the Vercel deployment for your convenience).*
+_(Note: If you don't want to mess with API keys locally, just use the live demo link above! I've attached my own key to the Vercel deployment for your convenience)._
 
 ## My Stack & Why I Chose It
 
@@ -26,11 +26,11 @@ For this challenge, I built a single-page dealership site for a fictional brand 
 
 I've wired up the AI to handle a bunch of different scenarios. Try pasting these into the chat:
 
-1. *"Show me your SUVs under 40 lakhs"* (Watch the grid filter itself)
-2. *"Compare the Nova and Zenith"* (It'll scroll you to the comparison table and load them in)
-3. *"Book a test drive for Atlas this Saturday in Mumbai"* (It pre-fills the booking form at the bottom!)
-4. *"Which car is best for a family of 5?"* (It will highlight the Atlas in the grid and explain why)
-5. *"Show prices in USD"* (Updates the global currency state)
+1. _"Show me your SUVs under 40 lakhs"_ (Watch the grid filter itself)
+2. _"Compare the Nova and Zenith"_ (It'll scroll you to the comparison table and load them in)
+3. _"Book a test drive for Atlas this Saturday in Mumbai"_ (It pre-fills the booking form at the bottom!)
+4. _"Which car is best for a family of 5?"_ (It will highlight the Atlas in the grid and explain why)
+5. _"Show prices in USD"_ (Updates the global currency state)
 
 ## If I had another week...
 
