@@ -157,7 +157,7 @@ export default function AIAssistant() {
             ))}
             {isLoading && (
               <div className="bg-white/10 text-gray-200 self-start rounded-2xl rounded-tl-sm p-3 text-sm flex items-center gap-2">
-                <Loader2 size={16} className="animate-spin" /> Thinking..
+                <Loader2 size={16} className="animate-spin" /> Thinking...
               </div>
             )}
             <div ref={messagesEndRef} />
