@@ -76,7 +76,7 @@ export default function Models() {
 
         {filteredCars.length === 0 && (
           <div className="col-span-full text-center text-gray-500 py-20">
-            No model match your criteria.
+            No models match your criteria.
           </div>
         )}
       </motion.div>
